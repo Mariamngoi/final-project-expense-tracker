@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:#f6d9bb;
+    min-height:100vh;
+}
+header{
+    background-color:#cbdbec;
+    color:white;
+    text-align:center;
+    padding:20px;
+    width: 45%;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.expense{
+    color: #181716;
+    font-weight: bolder;
+    font-family: 'inter';
+}
+.tracker{
+    color:#f59a76 ;
+}
+
+.main{
+    width:90%;
+    max-width:900px;
+    margin:30px auto;
+}
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'poppins';
+}
+.form{
+    background:#f6d9bb;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+   
+}
+form div{
+    margin-bottom:15px;
+}
+
+label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input, select{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+button{
+    background-color:#cbdbec;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#219150;
+}
+.list{
+    background:#f6d9bb;
+    padding:20px;
+    border-radius:10px;
+   
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+    background-color: #f6d9bb;
+    border: 1px solid black;
+}
+
+th, td{
+    padding:10px;
+    text-align:center;
+    border: 2px solid black;
+   
+} 
+
+th{
+    background:white;
+}
+.delete-btn{
+    background-color:#f59a76;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    background-color:#c0392b;
+}
+.total{
+    margin-top:20px;
+    background:#f6d9bb;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    
+}
+
+#totalAmount{
+    font-size:24px;
+    font-weight:bold;
+    color:#4ead7c;
+    text-decoration: underline;
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expense.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>E<span class="expense">XPENSE</span>TRA<span class="tracker">CKER</span></h1>
+    </header>
+
+    <main class="main">
+      <h2>Add New Expense</h2>
+
+      <section class="form">
+        <form id="expenseForm">
+          <div>
+            <label for="name">Expense Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter expense name"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="amount">Amount</label>
+            <input
+              type="number"
+              id="amount"
+              placeholder="Enter amount"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="category">Category</label>
+            <select id="category" required>
+              <option value="">Select Category</option>
+              <option>Food</option>
+              <option>Transport</option>
+              <option>Shopping</option>
+              <option>Bills</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="date">Date</label>
+            <input type="date" id="date" required />
+          </div>
+
+          <button type="submit">Add Expense</button>
+        </form>
+      </section>
+
+      <section class="list">
+        <h2>Expenses</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Amount</th>
+              <th>Category</th>
+              <th>Date</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+
+          <tbody id="Table"></tbody>
+        </table>
+      </section>
+
+      <section class="total">
+        <h2>Total Expense</h2>
+        <p id="totalAmount">0</p>
+      </section>
+    </main>
+
+    
+
+    <script src="expense.js"></script>
+  </body>
+</html>
