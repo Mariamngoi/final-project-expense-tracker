@@ -28,7 +28,7 @@ expenses-tracker
 
 ## How the Application Works
 
-- The user enters the expense name, amount, category, and date
+- The user enters the expense name amount category and date
 - The expense is added to a list displayed in a table
 - The total expense is automatically calculated
 - The data is saved in LocalStorage so it remains even after refreshing the page
@@ -36,7 +36,7 @@ expenses-tracker
 
 ## How to Run the Project
 
-- clone the project from github()
+- clone the project from github(https://github.com/Mariamngoi/final-project-expense-tracker)
 - Open the project  in your code editor
 - Open expense.html in your web browser
 
